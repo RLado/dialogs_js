@@ -14,13 +14,13 @@
   width: 300px;
   top: calc(50% - 115px);
   border: solid 1px #ddd;
-  background: whitesmoke;
+  background: #bfbfbf;
   z-index: 10000;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   color: black;
-  padding: 15px 10px 15px 10px;
-  font-family: arial;
+  padding: 0px 10px 15px 5px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .dialog-widget img {
@@ -50,10 +50,12 @@
   padding: 8px;
   -webkit-appearance: none;
   border: solid 1px #ccc;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   margin: 15px 5px 5px 5px;
   width: calc(100% - 16px - 2px - 10px);
   font-size: 12px;
+  background: #d2d2d2;
+  outline: 1px solid #205fac;
 }
 
 .dialog-widget .url {
@@ -70,26 +72,28 @@
 }
 
 .dialog-widget .title {
-  text-align: center;
+  text-align: left;
   display:block;
-  font-size: 14px;
+  font-weight: normal;
+  margin: 5px 10px 10px 10px;
+  font-size: 16px;
 }
 
 .dialog-widget .divider {
   border-top: solid 1px #ddd;
   padding: 0;
-  margin: 15px 0 15px -10px;
-  width: calc(100% + 20px);
+  margin: 15px 10px 15px 10px;
+  width: calc(100% - 20px);
 }
 
 .dialog-widget .ok, .dialog-widget .cancel {
-  color: #005AFF;
+  color: #d2d2d2;
   padding: 8px;
   width: calc(50% - 5px);
-  font-size: 13px;
-  background-color: #EBEBF1;
+  font-size: 12px;
+  background-color: #474747;
   border: none;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
 }
 
 .dialog-widget .ok {

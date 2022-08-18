@@ -1,15 +1,9 @@
 # dialogs
 
-[![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/dialogs.svg)](https://greenkeeper.io/)
-
-non blocking `confirm`, `alert` and `prompt` dialogs.
+Non-blocking `confirm`, `alert` and `prompt` dialogs.
 
 Theses native counterparts block the UI thread, are are not allowed in electron and some chrome extention contexts.
 
-Try it out! [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/embed?gist=5b6d6b63f8709deb3b5a)
-
-use with [browserify](http://browserify.org):
 
 # methods
 
@@ -53,14 +47,8 @@ dialogs.alert('okidoki', ok => {
 })
 ```
 
-# install
-
-With [npm](https://npmjs.org) do:
-
-```
-npm install dialogs
-```
-
 # license
 
-MIT
+MIT 
+
+Note: Modified style with respect to the original's author code

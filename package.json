@@ -1,7 +1,7 @@
 {
   "name": "dialogs",
-  "version": "2.0.1",
-  "description": "non blocking alert confirm and prompt dialogs",
+  "version": "2.0.2",
+  "description": "Non-blocking confirm, alert and prompt dialogs for electron_js. ",
   "keywords": [
     "alert",
     "confirm",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jameskyburz/dialogs.git"
+    "url": "git://github.com/RLado/dialogs_js"
   },
   "author": {
     "name": "James Kyburz",
@@ -35,7 +35,7 @@
     "xtend": "4.0.1"
   },
   "devDependencies": {
-    "standard": "10.0.2"
+    "standard": "^17.0.0"
   },
   "license": "MIT"
 }
